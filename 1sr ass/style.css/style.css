@@ -1,0 +1,146 @@
+*{   padding: 0;
+       mergine: 0;
+    box-sizing: border-box;
+}
+.container{
+             max-width: 1200px;
+             margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 18px 8%;
+
+}
+ul{
+    display: flex;
+  justify-content: space-between;
+    list-style: none;
+    gap: 17px;
+    align-items: center;
+}
+
+.common-btn{
+    background-color: blue;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+header{
+    background-image: url('/B14-A01-DevConf-2026/assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.header-contain{
+    color: aliceblue;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.header-contain button{
+
+ text-align: center;
+     margin: 20px auto;
+    border-radius: 10px;
+    padding: 25px;
+     background-color: blue;
+    color: white;
+
+}
+.meet{
+
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+.ai{
+    color: blue;
+}
+.box-con{
+display: flex;
+gap: 30px;
+justify-content: center;
+
+
+
+
+}
+.box{
+        border: 1px solid rgb(235, 226, 226);
+}
+.hh{
+    text-align: center;
+}
+                         
+.div1{
+    border: 1px solid seashell;
+
+     margin: 20px auto;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(247, 242, 236);
+    
+    
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    gap: 30px ;
+}
+.div2{
+    border: 1px solid seashell;
+ background-color: rgba(28, 18, 97, 0.762);
+ color: white;
+     margin: 20px auto;
+    border-radius: 10px;
+    padding: 25px;
+}
+.doler{
+ text-align: center;
+     margin: 20px auto;
+    border-radius: 10px;
+    padding : 5px 50px;
+    color: rgb(38, 16, 237);
+} 
+.doler1{
+ text-align: center;
+     margin: 20px auto;
+    border-radius: 10px;
+    padding : 5px 50px;
+    color: white;
+    background-color: rgb(28, 107, 255);
+} 
+.doler2{
+ text-align: center;
+     margin: 20px auto;
+    border-radius: 10px;
+    padding : 5px 50px;
+    color: white;
+    background-color: rgb(28, 107, 255);
+} 
+.div3{
+    border: 1px solid seashell;
+ background-color:whitesmoke;
+ color: black;
+     margin: 20px auto;
+    border-radius: 10px;
+    padding: 25px;
+}
+footer{
+   text-align: center;
+   margin-top: 70px !important;
+   display: grid;
+grid-template-columns: repeat(2,1fr);  
+ gap: 15px;
+   background-color: #e7d7cc;
+   padding: 20px;
+   border-radius: 10px;
+}
